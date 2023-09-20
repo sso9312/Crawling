@@ -15,14 +15,9 @@ public class Test02_egovframe {
 			Document doc=Jsoup.connect(URL).get();
 			System.out.println(doc.toString());
 		
-			
-			
-			
 		}catch (Exception e) {
 			System.out.println("크롤링 실패 : " + e);
 		}//end
-		
-		
 		
 		
 		
